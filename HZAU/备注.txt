@@ -1,0 +1,75 @@
+.java文件:
+
+Home_Fragment          		首页界面视图      	图标点击后的跳转
+Home_GridViewAdapter   		首页GridView适配器
+MainActivity     			控制侧滑菜单   	进行FragMent的填充
+Message_Fragment  			消息界面视图		功能跳转
+More_Fragment				更多 界面视图	ListView适配		搜索框结合		ListView点击跳转
+MyListView					自定义ListView,实现下拉刷新和上拉加载
+SlidingSwitcherView			控制首页图片自动播放器功能
+SlidMenu_Fragment			侧滑菜单视图
+StartAnimation				启动动画控制
+
+
+anim						实现启动动画效果
+
+
+.xml文件:
+
+activity_main				首界面布局
+home						首页界面填充布局
+loader_footer				下拉加载布局
+menu_frame					用来存放滑动菜单打开后的视图界面
+message						消息界面填充布局（登录界面）
+more_listadapter			更多界面ListView 适配界面布局
+more						更多界面填充布局 
+refresh						下拉属性布局
+slidemenu					侧滑菜单界面填充布局
+start_animation				启动动画界面布局 
+
+<新增文件备注时加上“新增”>
+
+新增：
+.java文件(.function包里面)
+AboutUs						实现  关于我们   功能
+Announcement				实现  通知公告  功能
+CampusCulture				实现  校园文化  功能
+CampusMessage				实现  校园快讯  功能
+DepartmentPhone				实现  部门电话  功能
+DownloadPart				实现  下载专区  功能
+EducationMessage			实现  教务快讯  功能
+Examination					实现  高考频道  功能
+HzauHistory					实现  华农历史  功能
+LionPlatfrom				实现  狮子山讲坛  功能
+NightMode					实现  夜间模式  功能
+Postgraduate				实现  研究生招生  功能
+QueryMore					实现  查询更多  功能
+SchoolCalendar				实现  校历  功能
+TextInformation				实现  考试信息  功能
+UndergraduateCourse			实现  本科招生  功能
+Update						实现  检查更新  功能
+		以上文件对应的布局文件名相同
+		
+(。ittface包)
+OnRefreshListener			实现下拉刷新和上拉加载  接口
+
+
+添加10张图片 名称为对应拼音
+
+tzgk				通知公告  
+bmdh				部门电话 
+xzzq				下载专区
+jwkx			 	教务快讯 
+gkpd				高考频道  
+yjzs				研究生招生  
+gd					查询更多  
+xl					校历  
+ksxx				考试信息
+bkzs				本科招生  
+
+加入其它图片
+xl_pic              校历
+
+SchoolCalendar				实现  校历  功能  已在布局文件中添加校历【ps:图质有待改善】
+
+改变了主界面三个菜单项的布局     以及各个图标

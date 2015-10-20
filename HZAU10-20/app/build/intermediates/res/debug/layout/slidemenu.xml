@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <ImageButton
+       android:id="@+id/headimag"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginLeft="23dp"
+       android:layout_marginTop="28dp"
+       android:src="@drawable/touxiang" />
+
+   <TextView
+       android:id="@+id/headtext"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@+id/headimag"
+       android:layout_alignBottom="@+id/headimag"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="28dp"
+       android:text="未登录"
+       android:textSize="15dp" />
+   <ListView 
+       android:id="@+id/functionlist"
+       android:layout_height="match_parent"
+       android:layout_width="match_parent"
+       android:entries="@array/function_names"
+       android:layout_below="@+id/headimag"/>
+
+</RelativeLayout>
+
+<!-- 侧滑菜单界面填充布局 --><!-- From: file:/C:/Users/delll/Desktop/AndroidProject/HZAU10-20/app/src/main/res/layout/slidemenu.xml -->

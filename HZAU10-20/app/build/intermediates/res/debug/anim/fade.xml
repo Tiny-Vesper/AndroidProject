@@ -1,0 +1,9 @@
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate 
+        android:fromXDelta="0"
+        android:toXDelta="-100%p"
+        android:duration="@android:integer/config_mediumAnimTime"/>
+</set>
+
+<!-- 启动动画效果 --><!-- From: file:/C:/Users/delll/Desktop/AndroidProject/HZAU10-20/app/src/main/res/anim/fade.xml -->

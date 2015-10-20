@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.love_hzau"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.love_hzau.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.example.love_hzau.StartAnimation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.love_hzau.function.CampusCulture" />
+        <activity android:name="com.example.love_hzau.function.CampusMessage" />
+        <activity android:name="com.example.love_hzau.function.HzauHistory" />
+        <activity android:name="com.example.love_hzau.function.LionPlatfrom" />
+        <activity android:name="com.example.love_hzau.function.EducationMessage" />
+        <activity android:name="com.example.love_hzau.function.Announcement" />
+        <activity android:name="com.example.love_hzau.function.TextInformation" />
+        <activity android:name="com.example.love_hzau.function.DepartmentPhone" />
+        <activity android:name="com.example.love_hzau.function.DownloadPart" />
+        <activity android:name="com.example.love_hzau.function.SchoolCalendar" />
+        <activity android:name="com.example.love_hzau.function.UndergraduateCourse" />
+        <activity android:name="com.example.love_hzau.function.Postgraduate" />
+        <activity android:name="com.example.love_hzau.function.Examination" />
+        <activity android:name="com.example.love_hzau.function.QueryMore" />
+        <activity android:name="com.example.love_hzau.function.Update" />
+        <activity android:name="com.example.love_hzau.function.AboutUs" />
+        <activity android:name="com.example.love_hzau.function.NightMode" />
+    </application>
+
+</manifest>

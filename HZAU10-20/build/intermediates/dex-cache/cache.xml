@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android studio\SDK\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-3cd8c268e1d65937f41871488813a5ae1458eb90.jar" />
+    </item>
+    <item
+        jar="C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-6e935b47a4acda85c37c943270bab04ee77e984e.jar" />
+    </item>
+    <item
+        jar="C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ca854ce41579449f9cc1e5720c69ab2ee5eb8101">
+        <dex dex="C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\pre-dexed\debug\android-support-v4-aaf58bbee8b2a1eeeaa9b8fa5f7e32d608d57a93.jar" />
+    </item>
+    <item
+        jar="C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\libs\slidingmenu_library.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="cb99e23157fe7226b4d506b212479d3fbd14b461">
+        <dex dex="C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\pre-dexed\debug\slidingmenu_library-ec09c22656257ffb914448f8dc7ff9dd0ebcff99.jar" />
+    </item>
+    <item
+        jar="C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\pre-dexed\debug\classes-24da9700c420fe62dab8d9ad99edf01c64bb09d7.jar" />
+    </item>
+
+</items>

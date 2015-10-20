@@ -1,0 +1,6 @@
+C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\classes\debug
+C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-3cd8c268e1d65937f41871488813a5ae1458eb90.jar
+C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\pre-dexed\debug\slidingmenu_library-ec09c22656257ffb914448f8dc7ff9dd0ebcff99.jar
+C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-6e935b47a4acda85c37c943270bab04ee77e984e.jar
+C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\pre-dexed\debug\android-support-v4-aaf58bbee8b2a1eeeaa9b8fa5f7e32d608d57a93.jar
+C:\Users\delll\Desktop\AndroidProject\HZAU10-20\app\build\intermediates\pre-dexed\debug\classes-24da9700c420fe62dab8d9ad99edf01c64bb09d7.jar

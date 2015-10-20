@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:orientation="vertical">
+   
+    
+    <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#0A0A0A" >
+     <ImageView
+                   android:id="@+id/back"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_alignParentLeft="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginLeft="10dp"
+                   android:scaleType="centerCrop"
+                   android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="关于我们"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+        
+</LinearLayout><!-- From: file:/C:/Users/delll/Desktop/AndroidProject/HZAU10-20/app/src/main/res/layout/aboutus.xml -->

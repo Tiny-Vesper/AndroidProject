@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.love_hzau"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity android:name=".StartAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".function.CampusCulture"></activity>
+        <activity android:name=".function.CampusMessage"></activity>
+        <activity android:name=".function.HzauHistory"></activity>
+        <activity android:name=".function.LionPlatfrom"></activity>
+        <activity android:name=".function.EducationMessage"></activity>
+        <activity android:name=".function.Announcement"></activity>
+        <activity android:name=".function.TextInformation"></activity>
+        <activity android:name=".function.DepartmentPhone"></activity>
+        <activity android:name=".function.DownloadPart"></activity>
+        <activity android:name=".function.SchoolCalendar"></activity>
+        <activity android:name=".function.UndergraduateCourse"></activity>
+        <activity android:name=".function.Postgraduate"></activity>
+        <activity android:name=".function.Examination"></activity>
+        <activity android:name=".function.QueryMore"></activity>
+        <activity android:name=".function.Update"></activity>
+        <activity android:name=".function.AboutUs"></activity>
+        <activity android:name=".function.NightMode"></activity>
+        
+        
+    </application>
+        
+        
+
+</manifest>

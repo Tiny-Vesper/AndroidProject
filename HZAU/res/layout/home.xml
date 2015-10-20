@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myattr="http://schemas.android.com/apk/res/com.example.love_hzau"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:orientation="vertical">
+    
+    <com.example.love_hzau.SlidingSwitcherView
+        android:id="@+id/slidingLayout"
+        myattr:auto_play="true"
+        android:layout_width="fill_parent"
+        android:layout_height="180dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/campusculture"
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent"
+                android:background="@drawable/xywh" />
+
+            <Button
+                android:id="@+id/campusmessage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/xykx" />
+
+            <Button
+                android:id="@+id/hzauhistory"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/hnls" />
+
+            <Button
+                android:id="@+id/lionplatfrom"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/szsjt" />  
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dip"
+            android:layout_height="20dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dip"
+            android:orientation="horizontal" >
+        </LinearLayout>
+     </com.example.love_hzau.SlidingSwitcherView>
+     
+    <GridView 
+        android:id="@+id/gridviewhome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    </GridView>
+</LinearLayout>
+
+<!-- 首页界面填充布局 -->
